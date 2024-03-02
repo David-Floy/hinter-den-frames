@@ -24,7 +24,7 @@ function Home() {
         </div>
   
         <div className="image-container">
-          <img src="img/filmbild3.png" alt="Horizontales Bild" className="horizontal-image" />
+          <img src="/filmbild3.png" alt="Horizontales Bild" className="horizontal-image" />
         </div>
   
         <div className="main-heading">
