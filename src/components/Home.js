@@ -1,7 +1,12 @@
 import React from 'react';
-import './Home.css';
+import './css/Home.css';
+import '../posts/DetailPage'
+import Header from "./Header";
+import { Link } from 'react-router-dom';
 
-function Home() {
+import Footer from "./Footer";
+
+const Home = ({posts}) => {
     
     function toggleText() {
       let text = document.getElementById("klapptext");
@@ -14,17 +19,18 @@ function Home() {
   
     return (
     <div>
-        <div className="header">
+        <Header/>
+        {/*<div className="header">
           <a href="https://www.google.de/" className="blog-title">Hinter den Frames &copy;</a>
           <div>
             <a href="#" className="nav-button">Alle  Blogposts</a>
             <a href="#" className="nav-button">Über  uns</a>
             <a href="#" className="nav-button">Kontakt</a>
           </div>
-        </div>
+        </div>*/}
   
         <div className="image-container">
-          <img src="/filmbild3.png" alt="Horizontales Bild" className="horizontal-image" />
+          <img src="/img/filmbild3.png" alt="Horizontales Bild" className="horizontal-image" />
         </div>
   
         <div className="main-heading">
@@ -39,39 +45,26 @@ function Home() {
         {/* Container für Blogpost-Vorschauen */}
         <div className="blog-preview-container">
           {/* Erste Blogpost-Vorschau */}
-          <div className="blog-preview">
-            <img src="img/blogpost1.jpg" alt="Blogpost 1" />
+            {posts.map(post =>(
+          <div key={post.id} className="blog-preview">
+            <img src={post.image} alt={post.title} />
             <div className="blog-preview-text">
-              <p>Kurzer Text des ersten Blogposts.</p>
-              <a href="#" className="read-more-link">Weiterlesen</a>
+                <h2>{post.title}</h2>
+                <p> {post.excerpt}</p>
+                <Link className="read-more-link" to={`/post/${post.id}`}>Weiterlesen</Link>
             </div>
+
           </div>
-  
-          {/* Zweite -"- */}
-          <div className="blog-preview">
-            <img src="img/blogpost2.jpg" alt="Blogpost 2" />
-            <div className="blog-preview-text">
-              <p>Kurzer Text des zweiten Blogposts.</p>
-              <a href="#" className="read-more-link">Weiterlesen</a>
-            </div>
-          </div>
-  
-          {/* Dritte -"- */}
-          <div className="blog-preview">
-            <img src="img/blogpost3.jpg" alt="Blogpost 3" />
-            <div className="blog-preview-text">
-              <p>Kurzer Text des dritten Blogposts.</p>
-              <a href="#" className="read-more-link">Weiterlesen</a>
-            </div>
-          </div>
+            ))}
+
         </div>
   
         {/* Footer */}
-        <div className="footer">
-          <a href="#" className="impressum-link">Impressum</a><p>© Mental Breakdown</p>
-        </div>
+        <Footer/>
     </div>
     );
   }
 
 export default Home;
+
+
