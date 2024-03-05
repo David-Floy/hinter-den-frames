@@ -6,23 +6,62 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 const App = () => {
 
     const posts = [
-        { id: 1, title: 'Titel des Blogposts 1', excerpt: 'Auszug des Blogposts 1', content: 'In einer Welt voller Superheldenfilme ist Marvel Studios seit langem der Maßstab für epische Abenteuer und unvergessliche Charaktere. Ihr neuester Film, [Neuester Marvel-Film], ist keine Ausnahme. Mit einer Kombination aus atemberaubenden visuellen Effekten, einer packenden Handlung und Charakteren, die das Publikum in ihren Bann ziehen, ist dieser Film zweifellos ein weiterer Meilenstein im Marvel Cinematic Universe (MCU).\n' +
-                '\n' +
-                'Der Film beginnt mit einem Knall und zieht die Zuschauer sofort in seine Welt. Die Eröffnungsszene ist eine spektakuläre Action-Sequenz, die die Bühne für das gesamte Abenteuer setzt. Von Anfang an ist klar, dass dieser Film keine Zeit verschwendet und direkt in die Handlung eintaucht.\n' +
-                '\n' +
-                'Eine der größten Stärken von [Neuester Marvel-Film] ist sein Ensemble-Cast. Von altbekannten Helden bis hin zu neuen Gesichtern bietet der Film eine vielschichtige und fesselnde Gruppe von Charakteren. Jeder von ihnen hat seine eigenen Motivationen und Ziele, was zu interessanten Konflikten und dynamischen Interaktionen führt. Die Chemie zwischen den Schauspielern ist spürbar und trägt zur immersiven Erfahrung des Films bei.\n' +
-                '\n' +
-                'Besonders beeindruckend ist die Leistung der Hauptdarsteller. [Name des Hauptdarstellers] überzeugt in seiner Rolle als [Charaktername] mit einer Mischung aus Charisma und Tiefe. Seine Entwicklung im Laufe des Films ist fesselnd und macht ihn zu einem der faszinierendsten Charaktere im MCU. Unterstützt wird er von einer talentierten Besetzung, darunter [Namen weiterer Hauptdarsteller], die alle ihre Momente haben, um zu glänzen.\n' +
-                '\n' +
-                'Natürlich wäre ein Marvel-Film ohne actiongeladene Sequenzen und beeindruckende visuelle Effekte nicht vollständig. In [Neuester Marvel-Film] werden die Erwartungen in dieser Hinsicht übertroffen. Die Actionszenen sind spektakulär choreografiert und mit beeindruckenden Effekten versehen. Ob es sich um epische Schlachten oder atemberaubende Verfolgungsjagden handelt, der Film bietet eine Fülle von visuellem Spektakel, das das Publikum in seinen Bann zieht.\n' +
-                '\n' +
-                'Darüber hinaus beeindruckt [Neuester Marvel-Film] mit einer tiefgreifenden und ansprechenden Handlung. Während der Film die typischen Elemente eines Superheldenfilms enthält - einschließlich heroischer Taten und epischer Schlachten -, geht er auch über sie hinaus und erkundet Themen wie Freundschaft, Opferbereitschaft und die Suche nach Identität. Dadurch fühlt sich der Film nicht nur wie ein weiteres Superheldenabenteuer an, sondern auch wie eine bedeutungsvolle Erzählung, die zum Nachdenken anregt.\n' +
-                '\n' +
-                'Ein weiterer Höhepunkt von [Neuester Marvel-Film] ist seine beeindruckende visuelle Gestaltung. Die Welt, die die Filmemacher geschaffen haben, ist reichhaltig und detailreich, und jede Einstellung ist ein visuelles Fest für die Augen. Von den glänzenden Wolkenkratzern der Stadt bis hin zu den weitläufigen Landschaften der entlegensten Ecken des Universums ist jeder Schauplatz sorgfältig gestaltet und trägt zur Immersion des Publikums bei.\n' +
-                '\n' +
-                'Neben seiner visuellen Pracht überzeugt der Film auch mit einem mitreißenden Soundtrack, der die emotionalen Momente verstärkt und die Actionsequenzen auf ein neues Level hebt. Die Musik ist perfekt auf die Stimmung des Films abgestimmt und trägt dazu bei, die Atmosphäre zu verstärken und die Zuschauer noch tiefer in das Geschehen einzubeziehen.\n' +
-                '\n' +
-                'Insgesamt ist [Neuester Marvel-Film] ein Triumph für das MCU und ein weiterer Beweis für die Fähigkeit von Marvel Studios, fesselnde Geschichten zu erzählen und unvergessliche Charaktere zu schaffen. Mit seiner packenden Handlung, beeindruckenden visuellen Effekten und einem Ensemble-Cast, das auf ganzer Linie überzeugt, ist dieser Film ein Muss für Fans von Superheldenfilmen und ein Erlebnis, das noch lange nach dem Abspann in Erinnerung bleibt. Marvel hat sich erneut selbst übertroffen und bewiesen, dass sie die Könige des Superheldenkinos sind.', image: '/img/pic1.jpg' },
+        { id: 1, title: 'Big Ass Spider!',
+            excerpt: 'Kammerjäger Alex landet mit einem Spinnenbiss im Krankenhaus. Mit dem Direktor des\n' +
+                'Hauses geht er einen Deal ein: die Behandlungskosten werden vergessen, wenn Alex die\n' +
+                'Leichenhalle auf ein mysteriöses Tier untersucht. Währenddessen spaziert das Militär ein,\n' +
+                'um genau dies zu übernehmen. Sie müssen das achtbeinige Getier erledigen, bevor es Los\n' +
+                'Angeles zerstört.\n',
+
+            content1: 'Unsere Protagonisten Truppe besteht aus Kammerjäger Alex, Krankenhaus Security Guard\n' +
+                'Jose Ramos und Major Braxton Tanner. Sie nehmen die Suche nach der Spinne auf,\n' +
+                'nachdem sie aus dem Krankenhaus via Gullideckel flieht. Dabei offenbart Major Tanner den\n' +
+                'Ursprung des Monstrums: eine ultimative US-Symbiose aus Alien-DNA und gentechnisch\n' +
+                'veränderten Lebensmitteln. Das Resultat ist eine Spinne mit gefährlicher Wachstumsrate,\n' +
+                'die nach Zunahme zweibeiniger Snacks exponentiell ansteigt. Doch das beweist sich nur in\n' +
+                'Größe, statt Gewicht. Während sich die Spinne in einigen Baumkronen versteckt, knickt kein\n' +
+                'einziger Ast unter der Last des PKW-großen Tieres ein. Spätestens im epischen Endkampf\n' +
+                'erkennen wir das Phänomen erneut, da bis auf die menschgemachten Militäreingriffe, der\n' +
+                'Spinnen-Showdown keine Spuren in der Baustatik-ausgereiften L.A. Skyline hinterlässt.\n',
+
+            image: ['/img/pic1.jpg', '05.03.2024', 'Pixabay'],
+            image2: ['/img/pic2.jpg', '05.03.2024', 'Pixabay'],
+
+            content2: "Big Ass Spider! hat nach der Veröffentlichung in 2013 zwei Preise gewonnen. Wofür? „Beste\n" +
+                "DVD/Blu-Ray Release“ – was genau das bedeutet, wissen wir auch nicht. Der Film sorgt\n" +
+                "jedenfalls fast anderthalb Stunden für Unterhaltung. Das Regie/Drehbuch Duo aus Mike\n" +
+                "Mendez und Gregory Gieras haben aus einem simplen Trashfilm Plot einen eigenständigen\n" +
+                "Film gezaubert. Das Casting trägt ebenso zum Filmerlebnis bei. Lange sollte nicht gegrübelt\n" +
+                "werden, woher man sie kennt. Kammerjäger-Darsteller Greg Grunberg trug für seine Rolle in\n" +
+                "Heroes die blaue Uniform des Polizisten Matt Parkman. Die vom Protagonisten\n" +
+                "umschmachtete Lt. Karly Brant wird gespielt von Clare Kramer. Sie verantwortete sich in\n" +
+                "Buffy als sagenhafte Glory einer Menge Chaos und Verzweiflung. Und dann gibt es da noch\n" +
+                "das befehlsmächtige Militär Oberhaupt Major Braxton Tanner. Hinter ihm steckt die\n" +
+                "unverkennbare Visage von Ray Wise: Twin Peaks, RoboCop, eben der Mann mit dem\n" +
+                "langen IMDB Eintrag.",
+        content3: "Insbesondere die Charaktere sind es, die den Film ausmachen. Der mexikanische\n" +
+            "Krankenhaus Security Guard Jose Ramos erlebt an der Seite des Kammerjägers seine\n" +
+            "eigene Bromance-würdige Heldenreise. Zitternd hält er seine Taschenlampe in der\n" +
+            "Leichenhalle des Krankenhauses, doch sein Mut wächst, sodass er zum triumphalen\n" +
+            "Konterangriff Alex die nötigen Mittel zuwirft. Auch neben Major Tanner steht ein Mann zur\n" +
+            "Seite, den es auf Grund seiner ultimativ stilvollen Präsenz zu erwähnen gilt. Dr. Lucas\n" +
+            "kümmerte sich um das „wissenschaftlliche Habitat des Experiments“, weshalb sich das\n" +
+            "Unglück auf seinen Tomatengarten verorten lässt. Ziemlich einleuchtend, da er weniger wie\n" +
+            "ein durchgeknallter Labor-Doc wirkt und eher scheint, als hätte man ihn bei einer\n" +
+            "Weinverkostung im italienischen Ferienhaus aufgegabelt.\n" +
+            "Hier handelt es sich um einen guten, wenn nicht verhältnismäßig besser-budgetierten\n" +
+            "Trashfilm, der jenen zu empfehlen ist, die zwischendurch was schmunzeln wollen.\n",
+            fskRating: "FSK 12",
+            releaseDate: "18.10.2013",
+            genre: "Sci-Fi, Action, Trashfilm",
+            laufzeit: "85 min",
+            Rating: "8/10",
+            author: "Nina",
+            date: "18.03.2022"
+
+
+        },
+
         { id: 2, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
         { id: 3, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
         { id: 4, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
@@ -34,7 +73,6 @@ const App = () => {
       return (
         <Router>
             <Routes>
-
                 <Route exact path="/" element={<Home posts={posts} />}/>
                 <Route path="/post/:id" element={<DetailPage posts={posts} />} />
             </Routes>

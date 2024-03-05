@@ -47,7 +47,7 @@ const Home = ({posts}) => {
           {/* Erste Blogpost-Vorschau */}
             {posts.map(post =>(
           <div key={post.id} className="blog-preview">
-            <img src={post.image} alt={post.title} />
+            <img src={post.image[0]} alt={post.title} />
             <div className="blog-preview-text">
                 <h2>{post.title}</h2>
                 <p> {post.excerpt}</p>
