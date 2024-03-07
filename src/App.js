@@ -69,6 +69,7 @@ const App = () => {
                 'Amtswesen oder bei einer Begegnung mit einer höchst unangenehmen Privatperson.\n',
 
             image: ['/img/Braunbaer1.jpg', '07.03.2024', 'Pixabay'],
+            image2: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
          
             content1: 'Natürlich verbleiben diese Gedanken im Regelfall (und das ist gut so) dort, wo sie hingehören.\n' +
                 'Man bleibt in solchen Situationen respektvoll, vernünftig und so höflich wie möglich. So, wie es\n' +
@@ -97,8 +98,6 @@ const App = () => {
                 'als auch Themen wie Illoyalität oder Empathielosigkeit finden in dem Film Bedeutung. \n' +
                 'Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und des\n' +
                 'Humors nicht für jede Person gemacht sind. Für mich hat der Film letztlich sehr gut funktioniert!\n',
-         
-            image: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
 
             fskRating: "FSK 12",
             releaseDate: "2014, Argentinien",
