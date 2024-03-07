@@ -86,8 +86,8 @@ const App = () => {
                 'Ebene zurückzukehren, um uns mitzuteilen, dass diese Art von Lösungen keine sind.\n' +
                 'Letztendlich sollten wir doch versuchen, stets besonnen zu agieren.\n',
 
-            image: ['/img/Braunbaer1.jpg', '07.03.2024', 'Pixabay'],
-            image2: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
+            image: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
+            image2: ['/img/Braunbaer1.jpg', '07.03.2024', 'Pixabay'],
          
             content2: 'Wild Tales hält sich nicht zurück mit überzogener Gewalt, schafft es aber,\n' +
                 'diese mit wunderbar komischen Timings zu verbinden und somit eine großartige Synergie\n' +
