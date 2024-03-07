@@ -96,8 +96,8 @@ const App = () => {
                 'ernsthaften Thematik abzulenken. Hier wird nämlich nebenbei einschlägige Gesellschaftskritik\n' +
                 'ausgeübt. Themen der Kapitalismuskritik wie Korruption, Ungerechtigkeit, Zwei-Klassen-Gesellschaft,\n' +
                 'als auch Themen wie Illoyalität oder Empathielosigkeit finden in dem Film Bedeutung. \n' +
-                'Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und des\n' +
-                'Humors nicht für jede Person gemacht sind. Für mich hat der Film letztlich sehr gut funktioniert!\n',
+                'Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und\n' +
+                'des Humors nicht für jede Person gemacht sind. Für mich hat der Film letztlich sehr gut funktioniert!\n',
 
             fskRating: "FSK 12",
             releaseDate: "2014, Argentinien",
