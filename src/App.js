@@ -67,9 +67,6 @@ const App = () => {
                 'verpassen!“ oder Ähnliches sind doch alles Gedankenspiele, die viele von uns irgendwann in\n' +
                 'bestimmten Lebenssituationen einmal hatten. Sei es beispielsweise im überbürokratisierten\n' +
                 'Amtswesen oder bei einer Begegnung mit einer höchst unangenehmen Privatperson.\n',
-
-            image: ['/img/Braunbaer1.jpg', '07.03.2024', 'Pixabay'],
-            image2: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
          
             content1: 'Natürlich verbleiben diese Gedanken im Regelfall (und das ist gut so) dort, wo sie hingehören.\n' +
                 'Man bleibt in solchen Situationen respektvoll, vernünftig und so höflich wie möglich. So, wie es\n' +
@@ -88,6 +85,9 @@ const App = () => {
                 'von solchen Situationen aussehen könnten, um schließlich am Ende doch wieder auf eine deeskalierende\n' +
                 'Ebene zurückzukehren, um uns mitzuteilen, dass diese Art von Lösungen keine sind.\n' +
                 'Letztendlich sollten wir doch versuchen, stets besonnen zu agieren.\n',
+
+            image: ['/img/Braunbaer1.jpg', '07.03.2024', 'Pixabay'],
+            image2: ['/img/Filmklappe1.jpg', '07.03.2024', 'Pixabay'],
          
             content2: 'Wild Tales hält sich nicht zurück mit überzogener Gewalt, schafft es aber,\n' +
                 'diese mit wunderbar komischen Timings zu verbinden und somit eine großartige Synergie\n' +
