@@ -114,7 +114,7 @@ const App = () => {
                 'Bewegtbildproduktionen, die in den jüngeren Filmjahrzehnten meiner Meinung nach \n' +
                 'unverdienterweise zu kurz gekommen oder (mittlerweile wieder) unbekannter sind. Zum Teil \n' +
                 'basiert diese Schlussfolgerung auf meiner subjektiven Sichtweise, sowie dem Erfolg im Kino \n' +
-                'anhand der Besucherzahlen als auch dem offiziellen Box Office. \n' +, 
+                'anhand der Besucherzahlen als auch dem offiziellen Box Office. \n' , 
          
             content1: 'Ich bin also mehr oder weniger nach Belieben vorgegangen, ohne irgendeinem bestimmten Schema F zu folgen. \n' +
                 'Filme, die allerdings noch im Nachhinein zu Kulttiteln geworden sind, habe ich logischerweise \n' +
