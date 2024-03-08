@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './components/Home'
+import ListOfPosts from './components/ListOfPosts';
 import DetailPage from "./posts/DetailPage";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -74,6 +75,7 @@ const App = () => {
         <Router>
             <Routes>
                 <Route exact path="/" element={<Home posts={posts} />}/>
+                <Route exact path="/bloglist" element={<ListOfPosts posts={posts} />}/>
                 <Route path="/post/:id" element={<DetailPage posts={posts} />} />
             </Routes>
 

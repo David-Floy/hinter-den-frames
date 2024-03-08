@@ -2,6 +2,7 @@ import React from 'react';
 import './css/Home.css';
 import '../posts/DetailPage'
 import Header from "./Header";
+import Blogpost from './Blogpost';
 import { Link } from 'react-router-dom';
 
 import Footer from "./Footer";
