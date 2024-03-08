@@ -72,7 +72,7 @@ const App = () => {
             content1: 'Natürlich verbleiben diese Gedanken im Regelfall (und das ist gut so) dort, wo sie hingehören.\n' +
                 'Man bleibt in solchen Situationen respektvoll, vernünftig und so höflich wie möglich. So, wie es\n' +
                 'in einer zivilisierten Gesellschaft sein sollte – oder? Gäbe es nicht immer diese Ausnahmen…\n' +
-                'Und über genau solche Ausnahmen erzählt Wild Tales – Jeder dreht mal durch (2014). \n' +
+                'Und über genau solche Ausnahmen erzählt <em>Wild Tales – Jeder dreht mal durch</em> (2014). \n' +
                 'Diese rabenschwarze Komödie/Satire aus Argentinien konterkariert die gesellschaftliche Konvention\n' +
                 'der Vernunft und Zurückhaltung und zeigt in herrlich komischen und gewaltvollen Extremfällen\n' +
                 'auf, wie die höchste Ebene aller Eskalationsstufen aussehen kann, wenn Personen das innere\n' +
@@ -109,7 +109,98 @@ const App = () => {
             date: "06.03.2024" 
         },
         
-        { id: 3, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
+        { id: 3, title: 'Unterm Radar?', 
+             excerpt: 'Heute nehme ich mir die Zeit für ein kleines, nicht-chronologisches Ranking mit Tipps zu \n' +
+                'Bewegtbildproduktionen, die in den jüngeren Filmjahrzehnten meiner Meinung nach \n' +
+                'unverdienterweise zu kurz gekommen oder (mittlerweile wieder) unbekannter sind. Zum Teil \n' +
+                'basiert diese Schlussfolgerung auf meiner subjektiven Sichtweise, sowie dem Erfolg im Kino \n' +
+                'anhand der Besucherzahlen als auch dem offiziellen Box Office. \n' +, 
+         
+            content1: 'Ich bin also mehr oder weniger nach Belieben vorgegangen, ohne irgendeinem bestimmten Schema F zu folgen. \n' +
+                'Filme, die allerdings noch im Nachhinein zu Kulttiteln geworden sind, habe ich logischerweise \n' +
+                'nicht berücksichtigt, sonst wäre es wohl zu einfach gewesen und ihr würdet jeden Titel bereits \n' +
+                'kennen. Schließlich kennt jeder Filmklassiker wie The Big Lebowski, Fight Club oder Die \n' +
+                'Verurteilten, deren Einspielergebnisse/Zahlen zwar miserabel waren, doch durch das Heimprogramm Kultstatus  \n' +
+                'erfahren haben. \n' +
+                '<br><strong>The Ballad of Buster Scruggs (2018):</strong> \n' +
+                '<br>Erfolgreich geworden durch Filme wie True Grit, The Big Lebowski oder No Country for Old Men \n' +
+                'dürften für viele Filmliebhaber die Coen-Brüder ein Begriff sein. \n' +
+                'Für The Ballad of Buster Scruggs jedoch nicht unbedingt. Möglicherweise, weil er etwas \n' +
+                'unscheinbar von Netflix produziert und veröffentlicht worden ist und allein deswegen eine \n' +
+                'gewisse Zugriffsbeschränkung besteht. \n' +
+                '<br>Der Anthologiefilm vermittelt in 6 unabhängigen Geschichten über den rauen und rohen \n' +
+                '„Do-or-Die“ Wilden Westen. Jede Geschichte fasst einzelne Aspekte dieser Zeit auf. Und dies geschieht \n' +
+                'zu meinem Gefallen auf eine in weiten Teilen entromantisierte Weise. \n' +
+                '<br>The Ballad of Buster Scruggs besticht durch tolle Dialoge und Bilder. Und jede Geschichte bringt eine \n' + 
+                'eigene Moral mit sich. Ich empfehle ihn gerne. \n'+
+
+                '<br><strong>No Way Out / Only the Brave (2017):</strong> \n' +
+                '<br>Ein Kinoflop mit 38 Mio. Dollar Produktionsbudget und \n' +
+                'weltweiten Einspielergebnissen von nur 24,5 Mio. Dollar. An mir ist der Film leider zuerst \n' +
+                'auch vorbeigegangen. Als ich ihn im Heimprogamm schaute, fragte ich mich, wieso der Film \n' +
+                'nicht erfolgreich war.  \n' +
+                '<br>Der Cast, die Bilder, Spiel und Story waren sehr stimmig. Vielleicht, \n' +
+                'weil das Thema um Feuerwehrmänner im Kampf gegen die Flammen zu altbacken oder unoriginell \n' +
+                'erscheint? Ich weiß es nicht. \n' +
+                '<br>Die Filmbiografie handelt von einer Truppe Feuerwehrmänner, \n' +
+                'die sich zu sogenannten „Hotshots“, einer Elite-Einheit zur Waldbrandbekämpfung in den USA, \n' +
+                'hocharbeiten und letztendlich zum Einsatz kommen. Angeführt wird die Truppe von der \n' +
+                'hochcharismatischen Figur Eric Marsh (Josh Brolin).  \n' +
+                '<br>Hier entstehen auch außerhalb des Kampfes \n' +
+                'gegen die Flammen wahrhaftige Gefühle von familiärem Zusammenhalt und Courage. Ich konnte \n' +
+                'mich immer mehr mit der sehr eigenwilligen, aber sympathischen Truppe identifizieren und \n' +
+                'wurde vor allem zum Ende hin emotional mitgerissen. Toller Film. \n',
+                    
+            image: ['/img/hollywood.jpg', '07.03.2024', 'Pixabay'],
+            image2: ['/img/wilderwesten.jpg', '07.03.2024', 'Pixabay'],
+
+            content2: '<strong>The Nice Guys (2016):</strong> \n' + 
+                '<br>Ein meiner Meinung nach sehr unterhaltsamer Film, der die ikonische Buddy-/Actionkomödie \n' +
+                'im Stile des Neo-Noire wieder aufleben hat lassen. Zumindest inhaltlich, den \n' +
+                'Besucherzahlen nach nämlich nicht. Die meisten dürften The Nice Guys aufgrund des \n' +
+                'Marketings kennen. Er dürfte nicht so oft geschaut worden sein. Er war ein Kassenflop. \n' +
+                '<br>The Nice Guys wirft uns zurück in die 70er Jahre und liefert uns eine großartige Story, einen \n' +
+                'fantastischen Cast und eine insgesamt abwechslungsreiche Mischung aus Spaß und Spannung. \n' +
+                '<br>Natürlich erfindet The Nice Guys, auch aufgrund des Genres, das Rad nicht neu, hat aber durchaus \n' +
+                'seinen eigenen Touch und brachte mir Frische in den Kinoalltag. Vielleicht auch, weil die \n' +
+                'letzten gut funktionierenden Buddyfilme mehr als ein Jahrzehnt zurückliegen und Ryan Gosling, \n' +
+                'Russel Crowe und Angourie Rice durch ihre wunderbare Synergie bestechen. Ich für meinen Teil \n' +
+                'mag den Film sehr! \n' +
+
+                '<br><strong>Hugo Cabret (2011):</strong> \n' +
+                '<br>Auch Martin Scorsese kann Flops. Auch wenn 180 Mio. Dollar nicht gering klingen \n' +
+                'klingen mögen. Vermutlich lag es hier an der 3D-Technologie, mit welcher der Film produziert \n' +
+                'wurde, die viele Kinogänger abschreckte.  \n' +
+                '<br>Ich denke ganz unbekannt dürfte der Film nicht sein, \n' +
+                'da er aber als Flop gehandelt wird, wollte ich ihn trotzdem erwähnen. \n'+
+                '<br>Hugo Cabret ist eine Hommage auf das Kino an sich und auf einen der Pioniere der Filmgeschichte. \n' +
+                'Verpackt ist diese Hommage mit der Geschichte der Figur Hugo Cabrets, einem Waisenjungen, der sich mit \n' +
+                'komplizierten Uhrwerken und einem nicht ganz so unwichtigen, mechanischen Mini-Mensch \n' +
+                'auseinandersetzt. Ein Erbe seines geliebten Vaters. \n' +
+                'Der Film erschafft eine Stimmung voll Melancholie und Magie und blüht im Verlauf richtig auf. \n' +
+
+                '<br><strong>Die Ermordung des Jesse James durch den Feigling Robert Ford (2007):</strong> \n' +
+                '<br>Ein wahrlich abschreckender Titel. \n' +
+                'So abschreckend, dass der Film niemand in die Kinosäle locken konnte. \n' +
+                '<br>Dabei ist „DEDJJDDFRF“ (klingt selbst abgekürzt grauenvoll) eines der am meisten abgerundeten Dramen, \n' +
+                'die ich gesehen habe. Sowohl Casey Affleck als auch Brad Pitt spielen klasse, Roger Deakins \n' +
+                'fährt mit einer herausragenden Bildgewalt auf und Sound und Musik von Nick Cave erweisen sich \n' +
+                'als sehr stimmungsvoll. \n' +
+                '<br>Nebenbei betreibt der Western eine stringente Auseinandersetzung von \n' +
+                'parasozialer Beziehung, Romantisierung und der bitteren Realität. Wie der Film ausgeht, wissen \n' +
+                'wir ja bereits durch den Titel - oder?" \n',
+
+            fskRating: "FSK 12-16",
+            releaseDate: "2007, 2011, 2017, 2017, 2018",
+            genre: "Drama, Western, Komödie, Abenteuer",
+            laufzeit: "/",
+            Rating: "Alle im 8/10er Bereich",
+            author: "Marvin",
+            date: "08.03.2024"                    
+       
+        },
+
+        
         { id: 4, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
         { id: 5, title: 'Titel des Blogposts 2', excerpt: 'Auszug des Blogposts 2', content: 'Inhalt des Blogposts 2', image: '/img/pic2.jpg'},
         // Weitere Blogpost-Daten...
