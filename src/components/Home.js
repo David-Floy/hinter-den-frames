@@ -35,12 +35,12 @@ const Home = ({posts}) => {
         </div>
   
         <div className="main-heading">
-          Mental Breakdowns Filmblog - Rankings, Analysen und mehr!
+          Mental Breakdowns Film- und Serienblog - Rankings, Analysen und mehr!
         </div>
   
         <div className="klapptext-container">
           <button className="transparent-button" onClick={toggleText}>Über unseren Blog | Kurz und knackig</button>
-          <p id="klapptext" className="klapptext">Hier kommt eine kurze Beschreibung über unseren Blog hin.</p>
+          <p id="klapptext" className="klapptext">Wir sind Rahel, David und Marvin und haben uns dazu entschieden einen Blog zu erstellen, weil wir Bewegtbildproduktionen lieben! Wir wünschen euch viel Spaß beim stöbern </p>
         </div>
   
         {/* Container für Blogpost-Vorschauen */}
