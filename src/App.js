@@ -151,8 +151,8 @@ const App = () => {
                 'mich immer mehr mit der sehr eigenwilligen, aber sympathischen Truppe identifizieren und \n' +
                 'wurde vor allem zum Ende hin emotional mitgerissen. Toller Film. \n',
                     
-            image: ['/img/hollywood.jpg', '07.03.2024', 'Pixabay'],
-            image2: ['/img/wilderwesten.jpg', '07.03.2024', 'Pixabay'],
+            image: ['/img/HollywoodPic1.jpg', '07.03.2024', 'Pixabay'],
+            image2: ['/img/WesternPic1.jpg', '07.03.2024', 'Pixabay'],
 
             content2: '<strong>The Nice Guys (2016):</strong> \n' + 
                 '<br>Ein meiner Meinung nach sehr unterhaltsamer Film, der die ikonische Buddy-/Actionkomödie \n' +
