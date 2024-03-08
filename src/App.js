@@ -77,12 +77,12 @@ const App = () => {
                 'der Vernunft und Zurückhaltung und zeigt in herrlich komischen und gewaltvollen Extremfällen\n' +
                 'auf, wie die höchste Ebene aller Eskalationsstufen aussehen kann, wenn Personen das innere\n' +
                 'Tier aus sich herauslassen.\n' +
-                'Der Episodenfilm besteht aus sechs unabhängig voneinander erzählten Teilen und handelt von\n' +
+                '<br>Der Episodenfilm besteht aus sechs unabhängig voneinander erzählten Teilen und handelt von\n' +
                 'Alltagsszenarien an Schauplätzen wie beispielsweise einer Hochzeit, einem Linienflug\n' +
                 'oder einem verregnetem Abend in einem Diner. Der Plot ist jedes Mal ein anderer,\n' +
                 'mit der einzigen Gemeinsamkeit, sich langsam von einer eher unbedenklichen zu einer\n' +
                 'absolut eskalierten Situation zu entwickeln.\n' +
-                'Mit seinen überspitzten Szenarien versucht der Film aufzuzeigen, wie suboptimale Lösungen\n' +
+                '<br>Mit seinen überspitzten Szenarien versucht der Film aufzuzeigen, wie suboptimale Lösungen\n' +
                 'von solchen Situationen aussehen könnten, um schließlich am Ende doch wieder auf eine deeskalierende\n' +
                 'Ebene zurückzukehren, um uns mitzuteilen, dass diese Art von Lösungen keine sind.\n' +
                 'Letztendlich sollten wir doch versuchen, stets besonnen zu agieren.\n',
@@ -97,7 +97,7 @@ const App = () => {
                 'ernsthaften Thematik abzulenken. Hier wird nämlich nebenbei einschlägige Gesellschaftskritik\n' +
                 'ausgeübt. Themen der Kapitalismuskritik wie Korruption, Ungerechtigkeit, Zwei-Klassen-Gesellschaft,\n' +
                 'als auch Themen wie Illoyalität oder Empathielosigkeit finden in dem Film Bedeutung. \n' +
-                'Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und\n' +
+                '<br>Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und\n' +
                 'des Humors nicht für jede Person gemacht sind. Für mich hat der Film letztlich sehr gut funktioniert!\n',
 
             fskRating: "FSK 12",
