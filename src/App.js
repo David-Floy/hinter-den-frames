@@ -112,7 +112,7 @@ const App = () => {
         { id: 3, title: 'Unterm Radar?', 
              excerpt: 'Heute nehme ich mir die Zeit für ein kleines, nicht-chronologisches Ranking mit Tipps zu \n' +
                 'Bewegtbildproduktionen, die in den jüngeren Filmjahrzehnten meiner Meinung nach \n' +
-                'unverdienterweise zu kurz gekommen oder (mittlerweile wieder) unbekannter sind. Zum Teil \n' +
+                'unverdienterweise zu kurz gekommen oder unbekannter, sprich unterm Radar geblieben sind. Zum Teil \n' +
                 'basiert diese Schlussfolgerung auf meiner subjektiven Sichtweise, sowie dem Erfolg im Kino \n' +
                 'anhand der Besucherzahlen als auch dem offiziellen Box Office. \n' , 
          
