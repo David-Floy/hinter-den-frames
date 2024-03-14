@@ -73,17 +73,17 @@ const App = () => {
             content1: 'Natürlich verbleiben diese Gedanken im Regelfall (und das ist gut so) dort, wo sie hingehören.\n' +
                 'Man bleibt in solchen Situationen respektvoll, vernünftig und so höflich wie möglich. So, wie es\n' +
                 'in einer zivilisierten Gesellschaft sein sollte – oder? Gäbe es nicht immer diese Ausnahmen…\n' +
-                'Und über genau solche Ausnahmen erzählt <em>Wild Tales – Jeder dreht mal durch</em> (2014). \n' +
+                'Und über genau solche Ausnahmen erzählt Wild Tales – Jeder dreht mal durch (2014). \n' +
                 'Diese rabenschwarze Komödie/Satire aus Argentinien konterkariert die gesellschaftliche Konvention\n' +
                 'der Vernunft und Zurückhaltung und zeigt in herrlich komischen und gewaltvollen Extremfällen\n' +
                 'auf, wie die höchste Ebene aller Eskalationsstufen aussehen kann, wenn Personen das innere\n' +
                 'Tier aus sich herauslassen.\n' +
-                '<br>Der Episodenfilm besteht aus sechs unabhängig voneinander erzählten Teilen und handelt von\n' +
+                'Der Episodenfilm besteht aus sechs unabhängig voneinander erzählten Teilen und handelt von\n' +
                 'Alltagsszenarien an Schauplätzen wie beispielsweise einer Hochzeit, einem Linienflug\n' +
                 'oder einem verregnetem Abend in einem Diner. Der Plot ist jedes Mal ein anderer,\n' +
                 'mit der einzigen Gemeinsamkeit, sich langsam von einer eher unbedenklichen zu einer\n' +
                 'absolut eskalierten Situation zu entwickeln.\n' +
-                '<br>Mit seinen überspitzten Szenarien versucht der Film aufzuzeigen, wie suboptimale Lösungen\n' +
+                'Mit seinen überspitzten Szenarien versucht der Film aufzuzeigen, wie suboptimale Lösungen\n' +
                 'von solchen Situationen aussehen könnten, um schließlich am Ende doch wieder auf eine deeskalierende\n' +
                 'Ebene zurückzukehren, um uns mitzuteilen, dass diese Art von Lösungen keine sind.\n' +
                 'Letztendlich sollten wir doch versuchen, stets besonnen zu agieren.\n',
@@ -98,7 +98,7 @@ const App = () => {
                 'ernsthaften Thematik abzulenken. Hier wird nämlich nebenbei einschlägige Gesellschaftskritik\n' +
                 'ausgeübt. Themen der Kapitalismuskritik wie Korruption, Ungerechtigkeit, Zwei-Klassen-Gesellschaft,\n' +
                 'als auch Themen wie Illoyalität oder Empathielosigkeit finden in dem Film Bedeutung. \n' +
-                '<br>Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und\n' +
+                'Wild Tales hat Spaß gemacht. Ich kann mir jedoch gut vorstellen, dass diese Arten der Inszenierung und\n' +
                 'des Humors nicht für jede Person gemacht sind. Für mich hat der Film letztlich sehr gut funktioniert!\n',
 
             fskRating: "FSK 12",
@@ -123,16 +123,16 @@ const App = () => {
                 'kennen. Schließlich kennt jeder Filmklassiker wie The Big Lebowski, Fight Club oder Die \n' +
                 'Verurteilten, deren Einspielergebnisse/Zahlen zwar miserabel waren, doch durch das Heimprogramm Kultstatus  \n' +
                 'erfahren haben. \n' +
-                '<br><strong>The Ballad of Buster Scruggs (2018):</strong> \n' +
-                '<br>Erfolgreich geworden durch Filme wie True Grit, The Big Lebowski oder No Country for Old Men \n' +
+                'The Ballad of Buster Scruggs (2018): \n' +
+                'Erfolgreich geworden durch Filme wie True Grit, The Big Lebowski oder No Country for Old Men \n' +
                 'dürften für viele Filmliebhaber die Coen-Brüder ein Begriff sein. \n' +
                 'Für The Ballad of Buster Scruggs jedoch nicht unbedingt. Möglicherweise, weil er etwas \n' +
                 'unscheinbar von Netflix produziert und veröffentlicht worden ist und allein deswegen eine \n' +
                 'gewisse Zugriffsbeschränkung besteht. \n' +
-                '<br>Der Anthologiefilm vermittelt in 6 unabhängigen Geschichten über den rauen und rohen \n' +
+                'Der Anthologiefilm vermittelt in 6 unabhängigen Geschichten über den rauen und rohen \n' +
                 '„Do-or-Die“ Wilden Westen. Jede Geschichte fasst einzelne Aspekte dieser Zeit auf. Und dies geschieht \n' +
                 'zu meinem Gefallen auf eine in weiten Teilen entromantisierte Weise. \n' +
-                '<br>The Ballad of Buster Scruggs besticht durch tolle Dialoge und Bilder. Und jede Geschichte bringt eine \n' + 
+                'The Ballad of Buster Scruggs besticht durch tolle Dialoge und Bilder. Und jede Geschichte bringt eine \n' + 
                 'eigene Moral mit sich. Ich empfehle ihn gerne. \n'+
 
                 'No Way Out / Only the Brave (2017): \n' +
