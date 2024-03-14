@@ -1,11 +1,9 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
-import Blogpost from "./Blogpost";
-import "./css/ListOfPosts.css";
-import "../posts/DetailPage";
+import '/css/DetailPage.css'
 
-const impressum = ({posts}) => {
+
+const impressum = ({}) => {
     return(
         <div>
             <Header />
