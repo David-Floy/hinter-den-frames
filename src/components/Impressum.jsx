@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import '/css/DetailPage.css'
+import './css/DetailPage.css'
 
 
 const impressum = ({}) => {
