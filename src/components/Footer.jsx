@@ -6,7 +6,7 @@ class Footer extends Component {
     return(
 
 <div className="footer">
-    <a href="#" className="impressum-link">Impressum</a><p>© Mental Breakdown</p>
+    <a href="/Impressum" className="impressum-link">Impressum</a><p>© Mental Breakdown</p>
 </div>
 
 );

@@ -11,7 +11,7 @@ state ={}
             <div>
                 <a href="/bloglist" className="nav-button">Alle Blogposts</a>
                 <a href="#" className="nav-button">Über uns</a>
-                <a href="#" className="nav-button">Kontakt</a>
+                <a href="/Impressum" className="nav-button">Kontakt</a>
             </div>
         </div>
     );
