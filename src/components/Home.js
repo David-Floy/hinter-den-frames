@@ -40,7 +40,7 @@ const Home = ({posts}) => {
   
         <div className="klapptext-container">
           <button className="transparent-button" onClick={toggleText}>Über unseren Blog | Kurz und knackig</button>
-          <p id="klapptext" className="klapptext">Wir sind Rahel, David und Marvin und haben uns dazu entschieden einen Blog zu erstellen, weil wir Bewegtbildproduktionen lieben! Wir wünschen euch viel Spaß beim stöbern </p>
+          <p id="klapptext" className="klapptext">Wir sind Rahel, David und Marvin und haben uns für ein Uni-Projekt dazu entschieden einen Film- und Serienblog zu erstellen, weil wir Bewegtbildproduktionen lieben! <br>Wir wünschen euch viel Spaß beim stöbern </p>
         </div>
   
         {/* Container für Blogpost-Vorschauen */}
