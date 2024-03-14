@@ -3,6 +3,7 @@ import Home from './components/Home'
 import ListOfPosts from './components/ListOfPosts';
 import DetailPage from "./posts/DetailPage";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Impressum from "./components/Impressum";
 
 const App = () => {
 
@@ -211,6 +212,7 @@ const App = () => {
             <Routes>
                 <Route exact path="/" element={<Home posts={posts} />}/>
                 <Route exact path="/bloglist" element={<ListOfPosts posts={posts} />}/>
+                <Route exact path="/Impressum" element={<Impressum posts={posts} />}/>
                 <Route path="/post/:id" element={<DetailPage posts={posts} />} />
             </Routes>
 
